@@ -12,7 +12,7 @@ echo ""
 echo ""
 
 make clean
-git checkout master
+git checkout kitkat
 export ARCH=arm
 export CROSS_COMPILE=~/tmp/arm-eabi-4.10/bin/arm-eabi-
 export ENABLE_GRAPHITE=true
